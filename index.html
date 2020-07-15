@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firestore Demo</title>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script defer src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+           https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script defer src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="generics.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Firestore Demo: Pandas List</h1>
+
+  <form id="panda-form">
+    <label>Name: <input type="text" name="name" placeholder="Panda's name?"></label>
+    <label>Avatar URL: <input type="text" name="avatar" placeholder="url of panda image"></label>
+    <button>Add Panda</button>
+  </form>
+  <ul id="pandas-list"></ul>
+
+</body>
+
+</html>
